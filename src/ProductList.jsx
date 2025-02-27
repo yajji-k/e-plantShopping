@@ -299,7 +299,7 @@ function ProductList() {
 
                 </div>
             ) : (
-                <CartItem onContinueShopping={() => setShowCart(false)} />
+                <CartItem onContinueShopping={() => setShowCart(false)}  />
             )}
         </div>
     );
